@@ -1,6 +1,12 @@
 ---
-title: Hello there
-publish_date: 2023-01-01
+title: A case for remote work.
+publish_date: 2029-01-01
 ---
 
-Just a test
+If you've ever meeded a job you
+have probably been in the been 
+in the cringeland of Linkedin.
+It's the site where you go when
+you want to be reminded what 
+"resources" mean in "Human
+Resources".
