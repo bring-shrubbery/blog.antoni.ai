@@ -1,6 +1,7 @@
 ---
 title: A case for remote work.
 publish_date: 2029-01-01
+draft: true
 ---
 
 If you've ever needed a job you
