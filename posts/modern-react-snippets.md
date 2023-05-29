@@ -6,16 +6,22 @@ publish_date: 2023-05-29
 ## TailwindCSS type-safe component
 
 ```tsx
-import { cn } from "@/lib/cn"
+import { cn } from '@/lib/utils'
 
-interface MyComponentProps extends ComponentProps<"div"> {
+interface MyComponentProps extends React.ComponentProps<'div'> {
   // Custom props go here
 }
 
-const MyComponent = ({ className, ...props }: React.PropsWithChildren<MyComponentProps>) => {
-  return <div className={cn("", className)} {...props}>
-    {children}
-  </div>
+const MyComponent = ({
+  className,
+  children,
+  ...props
+}: React.PropsWithChildren<MyComponentProps>) => {
+  return (
+    <div className={cn('', className)} {...props}>
+      {children}
+    </div>
+  )
 }
 
 export { MyComponent, type MyComponentProps }
