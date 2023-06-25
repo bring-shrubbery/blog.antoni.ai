@@ -1,4 +1,7 @@
-# Describing URL Routes in Frontend Apps
+---
+title:  Describing URL Routes in Frontend Apps
+publish_date: 2023-06-25
+---
 
 > This guide describes a better way to handle URL routes in frontend
 > applications. It suggests using a JavaScript/TypeScript definition to describe
