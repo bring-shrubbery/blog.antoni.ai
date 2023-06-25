@@ -3,13 +3,6 @@ title:  Describing URL Routes in Frontend Apps
 publish_date: 2023-06-25
 ---
 
-> This guide describes a better way to handle URL routes in frontend
-> applications. It suggests using a JavaScript/TypeScript definition to describe
-> the URL, making it look complex if it simplifies the user's life, and avoiding
-> lifetime hooks. The guide provides examples of defining routes with dynamic
-> parameters, multiple dynamic parameters, optional dynamic parameters,
-> mid-route dynamic parameters, global dynamic parameters, and hooks inside.
-
 ## Introduction
 
 Tracking all the routes you have in your frontend application can be difficult.
